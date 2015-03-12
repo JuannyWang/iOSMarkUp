@@ -45,7 +45,6 @@
 
 }
 
-
 - (IBAction)btnClick:(id)sender
 {
     UIButton *btn = (UIButton *)sender;
@@ -60,6 +59,7 @@
         case 1:
         {
             MU_HairViewController *hair = [[MU_HairViewController alloc] initWithNibName:@"MU_HairViewController" bundle:nil];
+            hair.hairImage = _imageView.image;
             [self.navigationController pushViewController:hair animated:YES];
         }
             break;

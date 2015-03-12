@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2399651AADA75C008B97CE /* MUHairView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2399621AADA75C008B97CE /* MUHairView.m */; };
+		6F2399661AADA75C008B97CE /* MyViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2399641AADA75C008B97CE /* MyViewModel.m */; };
+		6F3CAAAC1AAEFA2B0024FC72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F3CAAAB1AAEFA2B0024FC72 /* QuartzCore.framework */; };
 		6F54BACA19DA4FE700F7E460 /* MU_EyesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F54BAC819DA4FE700F7E460 /* MU_EyesViewController.m */; };
 		6F54BACB19DA4FE700F7E460 /* MU_EyesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F54BAC919DA4FE700F7E460 /* MU_EyesViewController.xib */; };
 		6F54BACF19DA4FFD00F7E460 /* MU_HairViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F54BACD19DA4FFD00F7E460 /* MU_HairViewController.m */; };
@@ -371,6 +374,8 @@
 		6F54C10C19DA8E2700F7E460 /* FaceppResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F54C10019DA8E2700F7E460 /* FaceppResult.m */; };
 		6F54C11119DA90DC00F7E460 /* MU_CommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F54C10F19DA90DC00F7E460 /* MU_CommandViewController.m */; };
 		6F54C11219DA90DC00F7E460 /* MU_CommandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F54C11019DA90DC00F7E460 /* MU_CommandViewController.xib */; };
+		6FC2FD731AB023BE009C11E7 /* MUEyesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC2FD721AB023BE009C11E7 /* MUEyesView.m */; };
+		6FC2FD751AB05970009C11E7 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC2FD741AB05970009C11E7 /* 05.png */; };
 		6FCF34F819D8FB14003B3F1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF34F719D8FB14003B3F1F /* Foundation.framework */; };
 		6FCF34FA19D8FB14003B3F1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF34F919D8FB14003B3F1F /* CoreGraphics.framework */; };
 		6FCF34FC19D8FB14003B3F1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCF34FB19D8FB14003B3F1F /* UIKit.framework */; };
@@ -398,6 +403,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F2399611AADA75C008B97CE /* MUHairView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUHairView.h; sourceTree = "<group>"; };
+		6F2399621AADA75C008B97CE /* MUHairView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUHairView.m; sourceTree = "<group>"; };
+		6F2399631AADA75C008B97CE /* MyViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewModel.h; sourceTree = "<group>"; };
+		6F2399641AADA75C008B97CE /* MyViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewModel.m; sourceTree = "<group>"; };
+		6F3CAAAB1AAEFA2B0024FC72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		6F54BAC719DA4FE700F7E460 /* MU_EyesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MU_EyesViewController.h; sourceTree = "<group>"; };
 		6F54BAC819DA4FE700F7E460 /* MU_EyesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MU_EyesViewController.m; sourceTree = "<group>"; };
 		6F54BAC919DA4FE700F7E460 /* MU_EyesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MU_EyesViewController.xib; sourceTree = "<group>"; };
@@ -814,6 +824,9 @@
 		6F54C10E19DA90DC00F7E460 /* MU_CommandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MU_CommandViewController.h; sourceTree = "<group>"; };
 		6F54C10F19DA90DC00F7E460 /* MU_CommandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MU_CommandViewController.m; sourceTree = "<group>"; };
 		6F54C11019DA90DC00F7E460 /* MU_CommandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MU_CommandViewController.xib; sourceTree = "<group>"; };
+		6FC2FD711AB023BE009C11E7 /* MUEyesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUEyesView.h; sourceTree = "<group>"; };
+		6FC2FD721AB023BE009C11E7 /* MUEyesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUEyesView.m; sourceTree = "<group>"; };
+		6FC2FD741AB05970009C11E7 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
 		6FCF34F419D8FB14003B3F1F /* iOSMakeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSMakeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FCF34F719D8FB14003B3F1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6FCF34F919D8FB14003B3F1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -840,6 +853,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F3CAAAC1AAEFA2B0024FC72 /* QuartzCore.framework in Frameworks */,
 				6F54BDAB19DA541100F7E460 /* AssetsLibrary.framework in Frameworks */,
 				6F54BDA919DA540500F7E460 /* AVFoundation.framework in Frameworks */,
 				6F54BAD419DA50CE00F7E460 /* opencv2.framework in Frameworks */,
@@ -862,6 +876,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F2399551AAD7E27008B97CE /* Hair */ = {
+			isa = PBXGroup;
+			children = (
+				6F2399611AADA75C008B97CE /* MUHairView.h */,
+				6F2399621AADA75C008B97CE /* MUHairView.m */,
+				6F2399631AADA75C008B97CE /* MyViewModel.h */,
+				6F2399641AADA75C008B97CE /* MyViewModel.m */,
+			);
+			name = Hair;
+			sourceTree = "<group>";
+		};
 		6F54BAC319DA4F8C00F7E460 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -1348,6 +1373,8 @@
 		6F54C0DF19DA868200F7E460 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6FC2FD701AB023A4009C11E7 /* Eyes */,
+				6F2399551AAD7E27008B97CE /* Hair */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -1418,6 +1445,15 @@
 			name = Command;
 			sourceTree = "<group>";
 		};
+		6FC2FD701AB023A4009C11E7 /* Eyes */ = {
+			isa = PBXGroup;
+			children = (
+				6FC2FD711AB023BE009C11E7 /* MUEyesView.h */,
+				6FC2FD721AB023BE009C11E7 /* MUEyesView.m */,
+			);
+			name = Eyes;
+			sourceTree = "<group>";
+		};
 		6FCF34EB19D8FB14003B3F1F = {
 			isa = PBXGroup;
 			children = (
@@ -1440,6 +1476,7 @@
 		6FCF34F619D8FB14003B3F1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6F3CAAAB1AAEFA2B0024FC72 /* QuartzCore.framework */,
 				6F54BDAA19DA541100F7E460 /* AssetsLibrary.framework */,
 				6F54BDA819DA540500F7E460 /* AVFoundation.framework */,
 				6F54BAD319DA50CE00F7E460 /* opencv2.framework */,
@@ -1470,6 +1507,7 @@
 		6FCF34FE19D8FB14003B3F1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6FC2FD741AB05970009C11E7 /* 05.png */,
 				6FCF34FF19D8FB14003B3F1F /* iOSMakeUp-Info.plist */,
 				6FCF350019D8FB14003B3F1F /* InfoPlist.strings */,
 				6FCF350319D8FB14003B3F1F /* main.m */,
@@ -1824,6 +1862,7 @@
 				6F54BFC419DA605400F7E460 /* yaw00_lev1_p56_hat.mh in Resources */,
 				6F54BFC119DA605400F7E460 /* yaw00_lev1_p53_hat.mh in Resources */,
 				6F54C04719DA605400F7E460 /* yaw00_lev3_p33_classic.mh in Resources */,
+				6FC2FD751AB05970009C11E7 /* 05.png in Resources */,
 				6F54BF7719DA605400F7E460 /* yaw00_lev0_p56_hat.mh in Resources */,
 				6F54C06619DA605400F7E460 /* yaw00_lev3_p64_classic.mh in Resources */,
 				6F54C06819DA605400F7E460 /* yaw00_lev3_p66_classic.mh in Resources */,
@@ -1922,6 +1961,7 @@
 				6F54BF3319DA605400F7E460 /* err.cpp in Sources */,
 				6F54C07719DA605400F7E460 /* shape17.cpp in Sources */,
 				6F54C07919DA605400F7E460 /* shapemod.cpp in Sources */,
+				6F2399661AADA75C008B97CE /* MyViewModel.m in Sources */,
 				6F54C10219DA8E2700F7E460 /* FaceppClient.m in Sources */,
 				6F54BF3A19DA605400F7E460 /* misc.cpp in Sources */,
 				6F54C0A819DA650C00F7E460 /* Adapter.m in Sources */,
@@ -1939,6 +1979,8 @@
 				6F54C0AE19DA650C00F7E460 /* UIImage+faceDct.m in Sources */,
 				6F54BF3219DA605400F7E460 /* convshape.cpp in Sources */,
 				6F54C10919DA8E2700F7E460 /* FaceppRecognition.m in Sources */,
+				6F2399651AADA75C008B97CE /* MUHairView.m in Sources */,
+				6FC2FD731AB023BE009C11E7 /* MUEyesView.m in Sources */,
 				6F54BF3919DA605400F7E460 /* landmarks.cpp in Sources */,
 				6F54C0E219DA8B9500F7E460 /* MBProgressHUD.m in Sources */,
 				6F54C07619DA605400F7E460 /* print.cpp in Sources */,
@@ -2072,11 +2114,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CODE_SIGN_IDENTITY = "iPhone Developer: 录扬 Gao (J224G47YTX)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSMakeUp/iOSMakeUp-Prefix.pch";
@@ -2092,11 +2136,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CODE_SIGN_IDENTITY = "iPhone Developer: 录扬 Gao (J224G47YTX)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSMakeUp/iOSMakeUp-Prefix.pch";

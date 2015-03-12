@@ -71,7 +71,8 @@
             
         }];
     }
-    else {
+    else
+    {
         UIAlertView *alert = [[UIAlertView alloc]
                               initWithTitle:@"failed to access photo library"
                               message:@""

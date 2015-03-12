@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MU_HairViewController : UIViewController
+@interface MU_HairViewController : UIViewController<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *hairImageView;
+@property (strong ,nonatomic) UIImage *hairImage;
+@property (weak, nonatomic) IBOutlet UISlider *colorSlider;
+- (IBAction)sliderValueChange:(id)sender;
 
 @end

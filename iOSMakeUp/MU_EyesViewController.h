@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface MU_EyesViewController : UIViewController
 
 @property (strong ,nonatomic) UIImage *eyesImage;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIView *backView;
 
 @end
